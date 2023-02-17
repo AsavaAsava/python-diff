@@ -1,7 +1,7 @@
 # py-diff
 
 py-diff is a Python package which compares two files line by line and outputs the difference between the files. No output shall be produced if the files are identical.
-It works together with [py-patch](https://pip.pypa.io/en/stable/)
+It works together with [py-patch](https://github.com/AsavaAsava/py-patch)
 
 ## Installation
 
@@ -14,7 +14,7 @@ pip install ./dist/py_diff-0.1.0-py3-none-any.whl
 ## Usage
 
 ```bash
-py-diff file1 file2
+py-diff file1 fisle2
 ```
 To generete output , redirect the output to a patch file as below:
 
